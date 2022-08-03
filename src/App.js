@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Zoia_K from './Zoia_K.png';
+import Zoia_K from './Zoia_K_svg.svg';
 
 export default function App() {
   return (

@@ -1,0 +1,12 @@
+.App {
+  font-family: 'Alegreya', serif;
+}
+
+.App img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.App h1 {
+  text-align: center;
+}

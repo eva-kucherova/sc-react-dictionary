@@ -7,6 +7,7 @@ function App() {
       <div className='container'>
         <header className='App-header'>
           <h1> Dictionary App </h1>
+          <p>What is real meaning of</p>
           <button className='btn btn-primary'> Search </button>
         </header>
       </div>

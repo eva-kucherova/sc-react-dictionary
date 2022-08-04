@@ -24,7 +24,7 @@ export default function Dictionary() {
 
   return (
     <div className='Dictionary'>
-      <h2>What is the real meaning of the word</h2>
+      <h3>What is the real meaning of the word</h3>
       <form onSubmit={search}>
         <input
           type='search'
@@ -38,6 +38,7 @@ export default function Dictionary() {
           '
         />
       </form>
+
       <Results results={results} />
     </div>
   );

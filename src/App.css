@@ -7,6 +7,14 @@
   display: block;
   margin: 0 auto;
 }
-.App h1 {
+.App h1,
+h2 {
   text-align: center;
+}
+.App form {
+  text-align: center;
+}
+.App footer {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Dictionary from './Dictionary';
 import Zoia_K from './Zoia_K_svg.svg';
 
 export default function App() {
@@ -11,8 +12,14 @@ export default function App() {
 
           <h1> Dictionary App </h1>
         </header>
-        <p>What is real meaning of</p>
-        <button className='btn btn-primary'> Search </button>
+        <main>
+          <Dictionary />
+        </main>
+
+        <footer>
+          Coded by <a href='/'>Zoia_K</a>, open sourced on{' '}
+          <a href='/'>GitHub</a>
+        </footer>
       </div>
     </div>
   );

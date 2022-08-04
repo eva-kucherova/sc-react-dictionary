@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState('');
@@ -6,6 +7,9 @@ export default function Dictionary() {
   function search(event) {
     event.preventDefault();
     return alert(`Searching for...${keyword}`);
+
+    let apiUrl = 'http://api.dictionaryapi.dev/api/v2/entries/en/sunset';
+    console.log(apiUrl);
   }
 
   function keywordChange(event) {

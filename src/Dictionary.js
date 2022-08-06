@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Results from './Results';
+import Photos from './Photos';
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState('');
   let [results, setResults] = useState(null);
+  let [photos, setPhotos] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data[0]);
@@ -12,7 +14,7 @@ export default function Dictionary() {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response);
+    setPhotos(response.data.photos);
   }
 
   function search(event) {
@@ -54,6 +56,7 @@ export default function Dictionary() {
       </form>
 
       <Results results={results} />
+      <Photos photos={photos} />
     </div>
   );
 }

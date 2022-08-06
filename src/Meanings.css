@@ -1,3 +1,9 @@
+.Meanings section {
+  background: #ffd2df;
+  width: 800px;
+  display: block;
+}
+
 .Meanings h3 {
   color: #7c403d;
 }

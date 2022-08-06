@@ -24,12 +24,13 @@ export default function Dictionary() {
 
   return (
     <div className='Dictionary'>
-      <h3>What is the real meaning of the word</h3>
+      <h3 className='fs-6'>What is the real meaning of the word?</h3>
       <form onSubmit={search}>
         <input
           type='search'
           placeholder='Type ⌨ the word here...'
           onChange={keywordChange}
+          className='shadow rounded ms-2'
         />
         <input
           type='submit'

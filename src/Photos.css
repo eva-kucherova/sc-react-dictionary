@@ -3,3 +3,6 @@
   width: 800px;
   display: block;
 }
+.Photos img {
+  width: 100%;
+}

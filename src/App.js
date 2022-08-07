@@ -17,8 +17,22 @@ export default function App() {
         </main>
 
         <footer>
-          Coded by <a href='/'>Zoia_K</a>, open sourced on{' '}
-          <a href='/'>GitHub</a>
+          Coded by{' '}
+          <a
+            href='https://zoia-k-responsive-portfolio.netlify.app/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Zoia_K
+          </a>
+          , open sourced on{' '}
+          <a
+            href='https://github.com/zoia-k/sc-react-dictionary'
+            target='_blank'
+            rel='noreferrer'
+          >
+            GitHub
+          </a>
         </footer>
       </div>
     </div>

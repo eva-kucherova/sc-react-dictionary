@@ -15,7 +15,7 @@ export default function Photos(props) {
                     <img
                       src={photo.src.landscape}
                       alt='keyword'
-                      className='d-flex rounded mb-2'
+                      className='d-flex rounded my-2'
                     ></img>
                   </a>
                 </div>
